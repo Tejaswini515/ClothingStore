@@ -1,0 +1,671 @@
+	Exporter version: 4.6.1, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  E:\Blender_Models\
+	Python World class constructor completed
+	processing begun of mesh:  TopBodyChest
+		processing begun of Standard material:  tiina_skin
+			Diffuse texture found "Tiina_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+			Bump texture found "Tiina_Diffuse_jpg"
+				Image texture found, type:  bumpTexture, mapped using: "0"
+		num positions      :  241
+		num normals        :  241
+		num uvs            :  482
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  996
+	processing begun of mesh:  Sweaterchest
+		processing begun of Standard material:  Sweater
+			Diffuse texture found "Sweater"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+	WARNING: Error encountered processing image file:  , Error:  'E:\\Blender_Models\\black.jpg' and 'E:\\Blender_Models\\black.jpg' are the same file
+		num positions      :  399
+		num normals        :  399
+		num uvs            :  798
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1524
+	processing begun of mesh:  Sweaterwaist
+		registered as also a user of material:  Sweater
+		num positions      :  409
+		num normals        :  409
+		num uvs            :  818
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1704
+	processing begun of mesh:  blue_colour
+		processing begun of Standard material:  blue
+			Diffuse texture found "blue"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  green_colour
+		processing begun of Standard material:  green
+			Diffuse texture found "green"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  red_colour
+		processing begun of Standard material:  red_colour
+			Diffuse texture found "red_colour"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  'E:\\Blender_Models\\red.jpg' and 'E:\\Blender_Models\\red.jpg' are the same file
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  orange_colour
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  Shirt2select
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  Sweaterselect
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  Shirt1select
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  green_plane
+		registered as also a user of material:  green
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  blue_plane
+		registered as also a user of material:  blue
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of camera (FreeCamera):  Camera
+	processing begun of mesh:  Hair_Mesh9
+		processing begun of Standard material:  tiina_hair
+			Diffuse texture found "Hair_All_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+			Bump texture found "Hair_All_png"
+				Image texture found, type:  bumpTexture, mapped using: "0"
+		num positions      :  85
+		num normals        :  85
+		num uvs            :  170
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  384
+	processing begun of mesh:  torus3
+		processing begun of Standard material:  Silver
+		num positions      :  180
+		num normals        :  180
+		num uvs            :  360
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1080
+	processing begun of mesh:  Hair_Mesh14
+		registered as also a user of material:  tiina_hair
+		num positions      :  42
+		num normals        :  42
+		num uvs            :  84
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  156
+	processing begun of mesh:  Hair_Mesh10
+		registered as also a user of material:  tiina_hair
+		num positions      :  96
+		num normals        :  96
+		num uvs            :  192
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  414
+	processing begun of mesh:  BackPocket_MiniButton4
+		processing begun of Standard material:  button
+			Diffuse texture found "Button_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  82
+		num normals        :  82
+		num uvs            :  164
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  480
+	processing begun of mesh:  sphere1
+		processing begun of Standard material:  jewel3
+		num positions      :  81
+		num normals        :  81
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  450
+	processing begun of mesh:  EyeLash_UP_R
+		processing begun of Standard material:  eye_lashes
+			Diffuse texture found "EyeLashes_UpDown_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  50
+		num normals        :  50
+		num uvs            :  100
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  216
+	processing begun of mesh:  polymsh_detached1
+		processing begun of Standard material:  laces
+			Diffuse texture found "Shoelaces_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  200
+		num normals        :  200
+		num uvs            :  400
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1080
+	processing begun of mesh:  BackPocket_MiniButton7
+		registered as also a user of material:  button
+		num positions      :  82
+		num normals        :  82
+		num uvs            :  164
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  480
+	processing begun of mesh:  Hair_Mesh7
+		registered as also a user of material:  tiina_hair
+		num positions      :  160
+		num normals        :  160
+		num uvs            :  320
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  774
+	processing begun of mesh:  Hair_Mesh8
+		registered as also a user of material:  tiina_hair
+		num positions      :  76
+		num normals        :  76
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  324
+	processing begun of mesh:  EyeLash_D_L
+		registered as also a user of material:  eye_lashes
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  144
+	processing begun of mesh:  torus
+		registered as also a user of material:  Silver
+		num positions      :  209
+		num normals        :  209
+		num uvs            :  418
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1056
+	processing begun of mesh:  Necklace
+		processing begun of Standard material:  necklace
+		num positions      :  520
+		num normals        :  520
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3120
+	processing begun of mesh:  Button
+		registered as also a user of material:  button
+		num positions      :  82
+		num normals        :  82
+		num uvs            :  164
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  480
+	processing begun of mesh:  Hair_Mesh19
+		registered as also a user of material:  tiina_hair
+		num positions      :  148
+		num normals        :  148
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  714
+	processing begun of mesh:  Hair_Mesh17
+		registered as also a user of material:  tiina_hair
+		num positions      :  151
+		num normals        :  151
+		num uvs            :  302
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  690
+	processing begun of mesh:  Hair_Mesh16
+		registered as also a user of material:  tiina_hair
+		num positions      :  144
+		num normals        :  144
+		num uvs            :  288
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  690
+	processing begun of mesh:  EyeLash_D_L1
+		registered as also a user of material:  eye_lashes
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  144
+	processing begun of mesh:  Nails
+		processing begun of Standard material:  Nails
+		num positions      :  170
+		num normals        :  170
+		num uvs            :  340
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  720
+	processing begun of mesh:  Earring
+		processing begun of Standard material:  1f4c56
+		num positions      :  101
+		num normals        :  101
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  570
+	processing begun of mesh:  Shoe_L2
+		processing begun of Standard material:  shoes
+			Diffuse texture found "Shoes_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  472
+		num normals        :  472
+		num uvs            :  944
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1488
+	processing begun of mesh:  BackPocket_MiniButton6
+		registered as also a user of material:  button
+		num positions      :  82
+		num normals        :  82
+		num uvs            :  164
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  480
+	processing begun of mesh:  EyeLash_UP_L
+		registered as also a user of material:  eye_lashes
+		num positions      :  50
+		num normals        :  50
+		num uvs            :  100
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  216
+	processing begun of mesh:  Hair_Mesh12
+		registered as also a user of material:  tiina_hair
+		num positions      :  207
+		num normals        :  207
+		num uvs            :  414
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  939
+	processing begun of mesh:  sphere2
+		processing begun of Standard material:  jewel2
+		num positions      :  81
+		num normals        :  81
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  450
+	processing begun of mesh:  Hair_Mesh13
+		registered as also a user of material:  tiina_hair
+		num positions      :  45
+		num normals        :  45
+		num uvs            :  90
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  168
+	processing begun of mesh:  Sweater
+		registered as also a user of material:  Sweater
+		num positions      :  1082
+		num normals        :  1082
+		num uvs            :  2164
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4686
+	processing begun of mesh:  polymsh_detached
+		processing begun of Standard material:  belt_line
+			Diffuse texture found "BeltLine_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  270
+		num normals        :  270
+		num uvs            :  540
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1512
+	processing begun of mesh:  Hair_Mesh6
+		registered as also a user of material:  tiina_hair
+		num positions      :  92
+		num normals        :  92
+		num uvs            :  184
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  396
+	processing begun of mesh:  Hair_Mesh11
+		registered as also a user of material:  tiina_hair
+		num positions      :  39
+		num normals        :  39
+		num uvs            :  78
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  144
+	processing begun of mesh:  Hair_Mesh20
+		registered as also a user of material:  tiina_hair
+		num positions      :  136
+		num normals        :  136
+		num uvs            :  272
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  636
+	processing begun of mesh:  Eye_Inner_L
+		processing begun of Standard material:  eyes_inner
+			Diffuse texture found "Eye_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  226
+		num normals        :  226
+		num uvs            :  452
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1344
+	processing begun of mesh:  Eye_Outer_R
+		processing begun of Standard material:  eyes_outer
+		num positions      :  146
+		num normals        :  146
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  864
+	processing begun of mesh:  Hair_Mesh15
+		registered as also a user of material:  tiina_hair
+		num positions      :  188
+		num normals        :  188
+		num uvs            :  376
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  801
+	processing begun of mesh:  Eye_Outer_L
+		registered as also a user of material:  eyes_outer
+		num positions      :  146
+		num normals        :  146
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  864
+	processing begun of mesh:  polymsh_detached2
+		registered as also a user of material:  laces
+		num positions      :  200
+		num normals        :  200
+		num uvs            :  400
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1080
+	processing begun of mesh:  Back_Pocket1
+		processing begun of Standard material:  pocket
+			Diffuse texture found "BackPocket_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  231
+		num normals        :  231
+		num uvs            :  462
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  708
+	processing begun of mesh:  Hair_Mesh2
+		registered as also a user of material:  tiina_hair
+		num positions      :  84
+		num normals        :  84
+		num uvs            :  168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  polymsh
+		processing begun of Standard material:  jeans
+			Diffuse texture found "Pants_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  5848
+		num normals        :  5848
+		num uvs            :  11696
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  23700
+	processing begun of mesh:  cylinder
+		processing begun of Standard material:  2ea6a7
+		num positions      :  58
+		num normals        :  58
+		num uvs            :  116
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  336
+	processing begun of mesh:  MiniButton2
+		registered as also a user of material:  button
+		num positions      :  82
+		num normals        :  82
+		num uvs            :  164
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  480
+	processing begun of mesh:  Back_Pocket2
+		registered as also a user of material:  pocket
+		num positions      :  228
+		num normals        :  228
+		num uvs            :  456
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  708
+	processing begun of mesh:  Hair_Mesh18
+		registered as also a user of material:  tiina_hair
+		num positions      :  93
+		num normals        :  93
+		num uvs            :  186
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  435
+	processing begun of mesh:  EyeLash_UP_R1
+		registered as also a user of material:  eye_lashes
+		num positions      :  50
+		num normals        :  50
+		num uvs            :  100
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  216
+	processing begun of mesh:  Hair_Mesh3
+		registered as also a user of material:  tiina_hair
+		num positions      :  84
+		num normals        :  84
+		num uvs            :  168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  MiniButton1
+		registered as also a user of material:  button
+		num positions      :  82
+		num normals        :  82
+		num uvs            :  164
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  480
+	processing begun of mesh:  Earring1
+		processing begun of Standard material:  a88999
+		num positions      :  101
+		num normals        :  101
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  570
+	processing begun of mesh:  sphere
+		processing begun of Standard material:  jewel1
+		num positions      :  81
+		num normals        :  81
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  450
+	processing begun of mesh:  Hair_Mesh
+		registered as also a user of material:  tiina_hair
+		num positions      :  145
+		num normals        :  145
+		num uvs            :  290
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  687
+	processing begun of mesh:  TopBody
+		registered as also a user of material:  tiina_skin
+		num positions      :  4154
+		num normals        :  4154
+		num uvs            :  8308
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  17967
+		WARNING: # of 0 area faces found:  16
+	processing begun of mesh:  Shirt2
+		processing begun of Standard material:  Shirt2
+			WARNING: Mesh has no UV maps, material:  "Shirt2" ignored
+		num positions      :  2279
+		num normals        :  2279
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  13200
+	processing begun of mesh:  Shirt1
+		processing begun of Standard material:  Shirt1
+			WARNING: Mesh has no UV maps, material:  "Shirt1" ignored
+		num positions      :  706
+		num normals        :  706
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3930
+	processing begun of mesh:  Pendant
+		registered as also a user of material:  button
+		num positions      :  746
+		num normals        :  746
+		num uvs            :  1492
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4476
+	processing begun of mesh:  Bra
+		processing begun of Standard material:  bra
+		num positions      :  2111
+		num normals        :  2111
+		num uvs            :  4222
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6876
+	processing begun of mesh:  torus2
+		registered as also a user of material:  Silver
+		num positions      :  209
+		num normals        :  209
+		num uvs            :  418
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1056
+	processing begun of mesh:  Hair_Mesh1
+		registered as also a user of material:  tiina_hair
+		num positions      :  246
+		num normals        :  246
+		num uvs            :  492
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1131
+	processing begun of mesh:  Hair_Mesh4
+		registered as also a user of material:  tiina_hair
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  132
+	processing begun of mesh:  Eye_Inner_R
+		registered as also a user of material:  eyes_inner
+		num positions      :  226
+		num normals        :  226
+		num uvs            :  452
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1344
+	processing begun of mesh:  Shoe_L4
+		registered as also a user of material:  shoes
+		num positions      :  472
+		num normals        :  472
+		num uvs            :  944
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1488
+	processing begun of mesh:  EyeLash_D_R
+		registered as also a user of material:  eye_lashes
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  144
+	processing begun of mesh:  EyeLash_UP_L1
+		registered as also a user of material:  eye_lashes
+		num positions      :  50
+		num normals        :  50
+		num uvs            :  100
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  216
+	processing begun of node:  LightPreset
+	processing begun of mesh:  EyeLash_D_R1
+		registered as also a user of material:  eye_lashes
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  144
+	processing begun of mesh:  cylinder1
+		processing begun of Standard material:  7b77a
+		num positions      :  58
+		num normals        :  58
+		num uvs            :  116
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  336
+	processing begun of mesh:  BackPocket_MiniButton5
+		registered as also a user of material:  button
+		num positions      :  82
+		num normals        :  82
+		num uvs            :  164
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  480
+	processing begun of light (HEMI):  Hemi.002
+	processing begun of light (HEMI):  Hemi.001
+	processing begun of light (HEMI):  Hemi
+	processing begun of light (SUN):  Sun
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 5.2279 secs

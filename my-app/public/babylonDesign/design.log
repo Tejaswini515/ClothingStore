@@ -1,0 +1,290 @@
+	Exporter version: 4.6.1, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  E:\Project\
+	Python World class constructor completed
+	processing begun of mesh:  TopBody
+		processing begun of Standard material:  Nails
+		processing begun of Standard material:  bra
+		processing begun of Standard material:  tiina_hair
+			Diffuse texture found "Hair_All_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+			Bump texture found "Hair_All_png"
+				Image texture found, type:  bumpTexture, mapped using: "0"
+		processing begun of Standard material:  eye_lashes
+			Diffuse texture found "EyeLashes_UpDown_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		processing begun of Standard material:  tiina_skin
+			Diffuse texture found "Tiina_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+			Bump texture found "Tiina_Diffuse_jpg"
+				Image texture found, type:  bumpTexture, mapped using: "0"
+		processing begun of Standard material:  1f4c56
+		processing begun of Standard material:  a88999
+		processing begun of Standard material:  Silver
+		processing begun of Standard material:  necklace
+		processing begun of Standard material:  button
+			Diffuse texture found "Button_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		processing begun of Standard material:  eyes_inner
+			Diffuse texture found "Eye_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		processing begun of Standard material:  eyes_outer
+		processing begun of Standard material:  2ea6a7
+		processing begun of Standard material:  7b77a
+		processing begun of Standard material:  jewel1
+		processing begun of Standard material:  jewel3
+		processing begun of Standard material:  jewel2
+		processing begun of multimaterial:  design.Multimaterial#0
+		num positions      :  2543
+		num normals        :  2543
+		num uvs            :  5086
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  9462
+	processing begun of mesh:  Waist
+		registered as also a user of material:  Nails
+		registered as also a user of material:  bra
+		registered as also a user of material:  tiina_hair
+		registered as also a user of material:  eye_lashes
+		registered as also a user of material:  tiina_skin
+		registered as also a user of material:  1f4c56
+		registered as also a user of material:  a88999
+		registered as also a user of material:  Silver
+		registered as also a user of material:  necklace
+		registered as also a user of material:  button
+		registered as also a user of material:  eyes_inner
+		registered as also a user of material:  eyes_outer
+		registered as also a user of material:  2ea6a7
+		registered as also a user of material:  7b77a
+		registered as also a user of material:  jewel1
+		registered as also a user of material:  jewel3
+		registered as also a user of material:  jewel2
+		processing begun of multimaterial:  design.Multimaterial#1
+		num positions      :  244
+		num normals        :  244
+		num uvs            :  488
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  843
+	processing begun of mesh:  wrist
+		registered as also a user of material:  Nails
+		registered as also a user of material:  bra
+		registered as also a user of material:  tiina_hair
+		registered as also a user of material:  eye_lashes
+		registered as also a user of material:  tiina_skin
+		registered as also a user of material:  1f4c56
+		registered as also a user of material:  a88999
+		registered as also a user of material:  Silver
+		registered as also a user of material:  necklace
+		registered as also a user of material:  button
+		registered as also a user of material:  eyes_inner
+		registered as also a user of material:  eyes_outer
+		registered as also a user of material:  2ea6a7
+		registered as also a user of material:  7b77a
+		registered as also a user of material:  jewel1
+		registered as also a user of material:  jewel3
+		registered as also a user of material:  jewel2
+		processing begun of multimaterial:  design.Multimaterial#2
+		num positions      :  2684
+		num normals        :  2684
+		num uvs            :  5368
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  8766
+	processing begun of mesh:  arms
+		registered as also a user of material:  Nails
+		registered as also a user of material:  bra
+		registered as also a user of material:  tiina_hair
+		registered as also a user of material:  eye_lashes
+		registered as also a user of material:  tiina_skin
+		registered as also a user of material:  1f4c56
+		registered as also a user of material:  a88999
+		registered as also a user of material:  Silver
+		registered as also a user of material:  necklace
+		registered as also a user of material:  button
+		registered as also a user of material:  eyes_inner
+		registered as also a user of material:  eyes_outer
+		registered as also a user of material:  2ea6a7
+		registered as also a user of material:  7b77a
+		registered as also a user of material:  jewel1
+		registered as also a user of material:  jewel3
+		registered as also a user of material:  jewel2
+		processing begun of multimaterial:  design.Multimaterial#3
+		num positions      :  188
+		num normals        :  188
+		num uvs            :  376
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  774
+	processing begun of mesh:  Sweater
+		processing begun of Standard material:  Sweater
+			Diffuse texture found "Sweater"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'E:\\Blender_Models\\black.jpg'
+		num positions      :  1890
+		num normals        :  1890
+		num uvs            :  3780
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  7914
+	processing begun of mesh:  blue_colour
+		processing begun of Standard material:  blue
+			Diffuse texture found "blue"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  green_colour
+		processing begun of Standard material:  green
+			Diffuse texture found "green"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  red_colour
+		processing begun of Standard material:  red_colour
+			Diffuse texture found "red_colour"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'E:\\Blender_Models\\red.jpg'
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  orange_colour
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  Shirt2select
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  Sweaterselect
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  Shirt1select
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  green_plane
+		registered as also a user of material:  green
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  blue_plane
+		registered as also a user of material:  blue
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of camera (FreeCamera):  Camera
+	processing begun of mesh:  Shoulder
+		registered as also a user of material:  Nails
+		registered as also a user of material:  bra
+		registered as also a user of material:  tiina_hair
+		registered as also a user of material:  eye_lashes
+		registered as also a user of material:  tiina_skin
+		registered as also a user of material:  1f4c56
+		registered as also a user of material:  a88999
+		registered as also a user of material:  Silver
+		registered as also a user of material:  necklace
+		registered as also a user of material:  button
+		registered as also a user of material:  eyes_inner
+		registered as also a user of material:  eyes_outer
+		registered as also a user of material:  2ea6a7
+		registered as also a user of material:  7b77a
+		registered as also a user of material:  jewel1
+		registered as also a user of material:  jewel3
+		registered as also a user of material:  jewel2
+		processing begun of multimaterial:  design.Multimaterial#4
+		num positions      :  7543
+		num normals        :  7543
+		num uvs            :  15086
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  34743
+		WARNING: # of 0 area faces found:  16
+	processing begun of mesh:  Pants
+		processing begun of Standard material:  belt_line
+			Diffuse texture found "BeltLine_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		processing begun of Standard material:  jeans
+			Diffuse texture found "Pants_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		registered as also a user of material:  button
+		processing begun of Standard material:  pocket
+			Diffuse texture found "BackPocket_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		processing begun of Standard material:  laces
+			Diffuse texture found "Shoelaces_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		processing begun of Standard material:  shoes
+			Diffuse texture found "Shoes_Diffuse_jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		processing begun of multimaterial:  design.Multimaterial#5
+		num positions      :  8495
+		num normals        :  8495
+		num uvs            :  16990
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  35124
+	processing begun of mesh:  Shirt2
+		processing begun of Standard material:  Shirt2
+			WARNING: Mesh has no UV maps, material:  "Shirt2" ignored
+		num positions      :  2279
+		num normals        :  2279
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  13200
+	processing begun of mesh:  Shirt1
+		processing begun of Standard material:  Shirt1
+			WARNING: Mesh has no UV maps, material:  "Shirt1" ignored
+		num positions      :  706
+		num normals        :  706
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3930
+	processing begun of node:  LightPreset
+	processing begun of light (HEMI):  Hemi.002
+	processing begun of light (HEMI):  Hemi.001
+	processing begun of light (HEMI):  Hemi
+	processing begun of light (SUN):  Sun
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 5.5693 secs

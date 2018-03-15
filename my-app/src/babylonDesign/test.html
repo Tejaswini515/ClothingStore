@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="http://www.babylonjs.com/babylon.js"></script>
+    <script src="http://www.babylonjs.com/cannon.js"></script>
+    <script src="http://www.babylonjs.com/oimo.js"></script>
+    <script src="https://babylonjs.azurewebsites.net/babylon.canvas2d.js"></script>
+    <script src="dat.gui.min.js"></script>
+    <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #renderCanvas{
+            width:100%;
+            height:100%;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="renderCanvas"></canvas>
+<script type="text/javascript">
+
+    var canvas = document.getElementById("renderCanvas");
+    var engine = new BABYLON.Engine(canvas, true);
+    var x=10,y=20;
+    BABYLON.SceneLoader.Load("", "new4.babylon", engine, function (scene) {
+        scene.executeWhenReady(function () {
+
+            // This creates and positions a free camera
+            var camera = new BABYLON.ArcRotateCamera("camera1",0,0,0,new BABYLON.Vector3(11, -1, 0), scene);
+            scene.activeCamera = camera;
+            camera.setTarget(new BABYLON.Vector3(0, 1, 0));
+            camera.attachControl(canvas, true);
+            scene.clearColor = new BABYLON.Color3(0, 0, 0);
+
+            var sweaterwaist = scene.getMeshByName("Sweaterwaist");
+            var sweaterchest = scene.getMeshByName("Sweaterchest");
+            var topbody = scene.getMeshByName("TopBody");
+            var lowerbody = scene.getMeshByName("polymsh_detached");
+
+            var sweater = scene.getMeshByName("Sweater");
+            var material4 = new BABYLON.StandardMaterial("material", scene);
+            sweater.material = material4;
+            material4.diffuseTexture = new BABYLON.Texture("black.jpg", scene);
+            material4.backFaceCulling = false;
+
+            var shirt1 = scene.getMeshByName("Shirt1");
+            var material5 = new BABYLON.StandardMaterial("material", scene);
+            shirt1.material = material5;
+            material5.diffuseTexture = new BABYLON.Texture("black.jpg", scene);
+
+            var shirt2 = scene.getMeshByName("Shirt2");
+            var material6 = new BABYLON.StandardMaterial("material", scene);
+            shirt2.material = material6;
+            material6.diffuseTexture = new BABYLON.Texture("black.jpg", scene);
+
+            sweater.isVisible = true;
+            sweaterwaist.isVisible = true;
+            sweaterchest.isVisible = true;
+            shirt1.isVisible = false;
+            shirt2.isVisible = false;
+
+            /*sweaterwaist.actionManager = new BABYLON.ActionManager(scene);
+            sweaterwaist.actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickTrigger, function () {
+                var pickResult = scene.pick(evt.clientX, evt.clientY);
+                if (pickResult.hit) {
+                    x = pickResult.pickedPoint.x;
+                    y = pickResult.pickedPoint.y;
+                }
+                }));*/
+
+            var count=0;
+            var point1;
+            var point2;
+            function place_point(x,y,z)
+            {
+
+                if(count==0) {
+                    var point1 = BABYLON.MeshBuilder.CreateSphere("sphere1", {diameter: 0.1}, scene);
+                    point1.position = new BABYLON.Vector3(x, y, z);
+                    count = count + 1;
+                }
+                else if(count==1) {
+                    var point2 = BABYLON.MeshBuilder.CreateSphere("sphere2", {diameter: 0.1}, scene);
+                    point2.position = new BABYLON.Vector3(x, y, z);
+                    count = count + 1;
+                }
+                else if(count==2)
+                {
+                    count=0;
+                    sphere1.isVisible=false;
+                    //point2.isVisible=false;
+                   // point1.dispose();
+                    //point2.dispose();
+                    var point1 = BABYLON.MeshBuilder.CreateSphere("sphere1", {diameter: 0.1}, scene);
+                    point1.position = new BABYLON.Vector3(x, y, z);
+                    count = count + 1;
+                }
+            }
+
+            window.addEventListener("click", function (evt) {
+                // We try to pick an object
+                var pickResult = scene.pick(evt.clientX, evt.clientY);
+                if (pickResult.hit) {
+                    x = pickResult.pickedPoint.x;
+                    y = pickResult.pickedPoint.y;
+                    z = pickResult.pickedPoint.z;
+                    place_point(x,y,z);
+                }
+            });
+
+            engine.runRenderLoop(function () {
+                scene.render();
+            });
+        });
+    });
+
+
+</script>
+</body>
+</html>

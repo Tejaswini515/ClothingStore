@@ -1,0 +1,159 @@
+Exporter version: 5.5.0, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  E:\Academics\Clothing_Project\public\NewBlenderDesign\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of node:  group
+	processing begun of mesh:  Top3
+		processing begun of Standard material:  Top3
+			Diffuse texture found "Top3"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  498
+		num normals        :  498
+		num uvs            :  996
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2256
+	processing begun of mesh:  Pants
+		processing begun of Standard material:  Pants
+			Diffuse texture found "Pants"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  612
+		num normals        :  612
+		num uvs            :  1224
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2508
+	processing begun of mesh:  Top2
+		processing begun of Standard material:  Top2
+			Diffuse texture found "Top2"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  563
+		num normals        :  563
+		num uvs            :  1126
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2565
+	processing begun of mesh:  Top1
+		processing begun of Standard material:  Top1
+			Diffuse texture found "Top1"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  611
+		num normals        :  611
+		num uvs            :  1222
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2805
+	processing begun of mesh:  Boots
+		processing begun of Standard material:  NudeEL_Nude__Elexis_reference_s4
+			Diffuse texture found "Boots_white_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+			Bump texture found "Boots_n_png"
+				Image texture found, type:  bumpTexture, mapped using: "0"
+		num positions      :  324
+		num normals        :  324
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1104
+	processing begun of mesh:  Body
+		processing begun of Standard material:  NudeEL_Nude__Elexis_reference_s3
+			Diffuse texture found "Body_2nd_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+			Bump texture found "Body_n_png"
+				Image texture found, type:  bumpTexture, mapped using: "0"
+		num positions      :  2906
+		num normals        :  2906
+		num uvs            :  5812
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  11199
+	processing begun of mesh:  Necklace
+		processing begun of Standard material:  NudeEL_Nude__Elexis_reference_s0
+			Diffuse texture found "bikini_black_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  367
+		num normals        :  367
+		num uvs            :  734
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1098
+	processing begun of mesh:  LeftEyeBall
+		processing begun of Standard material:  NudeEL_Nude__Elexis_reference_s6
+			Diffuse texture found "Copia_di_pupil_l_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  9
+		num normals        :  9
+		num uvs            :  18
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  21
+	processing begun of mesh:  Mouth
+		processing begun of Standard material:  NudeEL_Nude__Elexis_reference_s1
+			Diffuse texture found "fmouth_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  285
+		num normals        :  285
+		num uvs            :  570
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  942
+	processing begun of mesh:  RightEye
+		processing begun of Standard material:  _6___Default
+			Diffuse texture found "eyeball_l_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+		num positions      :  18
+		num normals        :  18
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  48
+	processing begun of mesh:  LeftEye
+		registered as also a user of material:  _6___Default
+		num positions      :  18
+		num normals        :  18
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  48
+	processing begun of mesh:  Hair
+		processing begun of Standard material:  NudeEL_Nude__Elexis_reference_s5
+			Diffuse texture found "Hair_black_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+			Bump texture found "Hair_normal_png"
+				Image texture found, type:  bumpTexture, mapped using: "0"
+		num positions      :  644
+		num normals        :  644
+		num uvs            :  1288
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2514
+	processing begun of mesh:  RightEyeBall
+		registered as also a user of material:  NudeEL_Nude__Elexis_reference_s6
+		num positions      :  9
+		num normals        :  9
+		num uvs            :  18
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  21
+	processing begun of mesh:  Face
+		processing begun of Standard material:  NudeEL_Nude__Elexis_reference_s2
+			Diffuse texture found "Face_bl_hair_png"
+				Image texture found, type:  diffuseTexture, mapped using: "0"
+			Bump texture found "Face_normal_png"
+				Image texture found, type:  bumpTexture, mapped using: "0"
+		num positions      :  1409
+		num normals        :  1409
+		num uvs            :  2818
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  7185
+	processing begun of light (HEMI):  Hemi
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 4.9171 secs
