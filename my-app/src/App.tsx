@@ -1,5 +1,5 @@
 import * as React from 'react';
-import PageWithScene from './PageWithScene';
+import MeasurementsContainer from './MeasurementsContainer';
 
 export default class App extends React.Component {
 
@@ -15,7 +15,7 @@ export default class App extends React.Component {
     return(
       <div>
           <h1 style={demoContent}> Clothing Store </h1>
-          <PageWithScene/ >
+          <MeasurementsContainer / >
       </div>
     );
   }

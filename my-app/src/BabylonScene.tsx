@@ -52,13 +52,13 @@ class BabylonScene extends React.Component<SceneProps & React.HTMLAttributes<HTM
 
   render () {
     const canvasView: any = {
-      textAlign: 'center',
-      margin: '1px'
+      margin: '1px',
     };
 
     const sceneView: any = {
       margin: '0',
-      width: '100%'
+      width: '100%',
+      height: '100%',
     };
 
     return (
