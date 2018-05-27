@@ -2,15 +2,15 @@ import * as React from 'react';
 import * as GUI from 'babylonjs-gui';
 import PageWithScene from './PageWithScene';
 
-let shouldermin = 12 , shouldermax = 16, heightmin = 14, heightmax = 18,
+const shouldermin = 12 , shouldermax = 16, heightmin = 14, heightmax = 18,
     waistmin = 22 , waistmax = 36, bustmin = 2, bustmax = 8;
 
 export default class MeasurementsContainer extends React.Component {
 
     createSliders() {
-    var advancedTexture = GUI.AdvancedDynamicTexture.CreateFullscreenUI('UI');
+    let advancedTexture = GUI.AdvancedDynamicTexture.CreateFullscreenUI('UI');
 
-    var panel = new GUI.StackPanel();
+    let panel = new GUI.StackPanel();
     panel.width = '220px';
     panel.height = '200px';
     panel.horizontalAlignment = GUI.Control.HORIZONTAL_ALIGNMENT_RIGHT;
@@ -18,7 +18,7 @@ export default class MeasurementsContainer extends React.Component {
     panel.top = '30 px';
     advancedTexture.addControl(panel);
 
-    var headers = [
+    let headers = [
         new GUI.TextBlock(),
         new GUI.TextBlock(),
         new GUI.TextBlock(),
@@ -30,7 +30,7 @@ export default class MeasurementsContainer extends React.Component {
         element.color = 'black';
     });
 
-    var sliders = [
+    let sliders = [
         new GUI.Slider(),
         new GUI.Slider(),
         new GUI.Slider(),

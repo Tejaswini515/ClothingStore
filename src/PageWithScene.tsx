@@ -133,28 +133,28 @@ class PageWithScene extends React.Component<SliderProps, any> {
           height.material = shoulder.material = waist.material = bust.material = msr; 
           shoulder.isVisible = height.isVisible = waist.isVisible = bust.isVisible = false;
 
-          var sval = 12;
+          let sval = 12;
           sliderData.sliders[0].onValueChangedObservable.add(function(value) {
             sliderData.headers[0].text = 'Shoulder: ' + value;   
                 shoulder.scaling.x += (value - sval) * 0.1; 
                 sval = value;
           });
 
-          var hval = 14;
+          let hval = 14;
           sliderData.sliders[1].onValueChangedObservable.add(function(value) {
             sliderData.headers[1].text = 'Height: ' + value;   
                 height.scaling.y += (value - hval) * 0.1; 
                 hval = value;
           });
 
-          var wval = 22;
+          let wval = 22;
           sliderData.sliders[2].onValueChangedObservable.add(function(value) {
             sliderData.headers[2].text = 'Waist: ' + value;   
                 waist.scaling.x += (value - wval) * 0.1; 
                 wval = value;
           });
 
-          var bval = 2;
+          let bval = 2;
           sliderData.sliders[3].onValueChangedObservable.add(function(value) {
             sliderData.headers[3].text = 'Bust: ' + value;   
                 bust.scaling.x += (value - bval) * 0.1; 
